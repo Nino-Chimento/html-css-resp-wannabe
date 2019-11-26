@@ -21,6 +21,19 @@
 #lezioni {
   text-align: center;
 }
+ @media screen and (max-width:420px) {
+   #lezione {
+     text-align: left;
+     width: 100%;
+   }
+    h1  {
+      font-size: 20px;
+    }
+   .row {
+     width: 100%
+   }
+ }
+
 
 /* BLOCCO STEPS */
 #steps .row > .left,
