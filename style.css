@@ -21,18 +21,8 @@
 #lezioni {
   text-align: center;
 }
- @media screen and (max-width:420px) {
-   #lezione {
-     text-align: left;
-     width: 100%;
-   }
-    h1  {
-      font-size: 20px;
-    }
-   .row {
-     width: 100%
-   }
- }
+
+
 
 
 /* BLOCCO STEPS */
@@ -77,4 +67,24 @@ img{
 
 .clear {
   clear:both;
+}
+@media screen and (max-width:420px) {
+  #lezione {
+    text-align: left;
+    width: 420px;
+  }
+   h1  {
+     font-size: 20px;
+     margin: 0;
+     width: 100%
+   }
+  .row {
+    width: 100%;
+  }
+  .row img {
+    width: 50%
+  }
+  #lezioni .row > .left, #lezioni .row > .right {
+    width: 100%;
+  }
 }
